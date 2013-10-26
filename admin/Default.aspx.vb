@@ -5,4 +5,5 @@ Partial Class admin_Default
     Protected Sub btnSearch_Click(sender As Object, e As EventArgs) Handles btnSearch.Click
         SqlDataSource1.DataBind()
     End Sub
+
 End Class
